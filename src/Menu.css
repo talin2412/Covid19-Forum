@@ -1,0 +1,91 @@
+.menu {
+    display: flex;
+    flex-direction: column;
+    flex: 0.25;
+    height: 100vh;
+    background-color: #dbb9af;
+
+}
+
+.menu_top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color:
+    #dbb9af;
+    color: black;
+    border-bottom: 3px solid #26282c;
+}
+
+
+.menu_channels {
+    flex: 1;
+}
+
+.menu_addChannel {
+    color: black;
+    cursor: pointer;   
+}
+
+.menu_addChannel:hover {
+    color: white;
+}
+
+.menu_channels_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #dbb9af;
+    color: black;
+}
+
+.menu_header {
+    display: flex;   
+    align-items: center;
+}
+
+.menu__voice, .menu__profile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:black;
+    background-color: #dbb9af;
+    padding: 10px;
+    border-top: 1px solid black;
+}
+
+.menu__voiceInfo {
+    flex: 1;
+    padding: 10px;
+}
+
+.menu__voiceIcon {
+    color: 
+    #12c908
+    ;
+}
+
+.menu__voiceInfo > h3 {
+    color: 
+    #12c908
+    ;
+}
+
+.menu__voiceInfo > p {
+    font-size: smaller;
+}
+
+.menu__voiceIcons > .MuiSvgIcon-root {
+    padding: 10px;
+}
+
+.menu__profileInfo {
+    flex: 1;
+    padding: 10px;
+}
+
+.menu__profileIcons > .MuiSvgIcon-root {
+    padding: 10px;
+}

@@ -1,0 +1,19 @@
+.menuChannel:hover > h4 {
+    color: white;
+    background-color: gray;
+}
+
+.menuChannel > h4  {
+    display: flex;
+    padding-left: 15px;
+    align-items: center;
+    background-color: #dbb9af;
+    color: black;
+    cursor: pointer;
+}
+
+.menuChannel_hash {
+    font-size: 30px;
+    padding: 8px;
+}
+
