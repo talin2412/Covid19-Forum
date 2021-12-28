@@ -3,6 +3,8 @@ import { auth, provider } from './firebase';
 import React from 'react'
 import './Login.css';
 
+import logo from './Logo.png'
+
 function Login() {
     const signIn = () => {
         auth.signInWithPopup(provider).catch((error) => alert(error.message));
@@ -12,7 +14,7 @@ function Login() {
         <div className = 'login'>
 
             <div className="login__logo">
-                <img src="https://miro.medium.com/max/800/1*_AsB_hCguMYC-wEG2Bidmw.png"
+                <img src={logo}
                  alt=""/>
             </div>
 
